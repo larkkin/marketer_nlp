@@ -12,5 +12,5 @@ The similarity function is based on three components:
 3) balcony: I detect if there are balconies/terraces in the properties from the descriptions and then increase the overall similarity by 1 if both/neither of the properties have a balcony/terrace.
 
 The resulting similarity is then by default normalized by the maximum possible one so that the total score is always between 0 and 1.
-The weight of each modifier, floor, or balcony is loaded from a config file. In other words, if both/neither of the properties have a balcony, the similarity is increased not by 1 but by the balcony_weight value defined in the config file. This way, the user can define what is more for them.
+The weight of each modifier, floor, or balcony is loaded from a config file. In other words, if both/neither of the properties have a balcony, the similarity is increased not by 1 but by the balcony_weight value defined in the config file. This way, the user can define what is more important for them.
 Other components can be easily added to the project. 
