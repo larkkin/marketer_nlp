@@ -1,0 +1,35 @@
+{
+    "categories": {
+        "bathroom": ["bathroom", "bath"],
+        "bedroom": ["bedroom"],
+        "living room": ["living room", "reception", "reception room", "receptions room", "reception area", "reception space"],
+        "property": ["apartment", "maisonette", "house", "accommodation", "home"],
+        "garden": ["garden", "yard"],
+        "location": ["location"]
+    },
+    "modifier_weights": {
+        "bathroom": 1.0,
+        "bedroom": 1.0,
+        "living room": 1.0,
+        "property": 1.0,
+        "garden": 1.0,
+        "location": 1.0
+    },
+    "floor_weight": 1.0,
+    "balcony_weight": 1.0,
+    "text_to_number": {
+        "one": "1",
+        "two": "2",
+        "three": "3",
+        "four": "4",
+        "five": "5",
+        "six": "6",
+        "seven": "7",
+        "eight": "8",
+        "nine": "9",
+        "ground": "0"
+    },
+    "balcony_synonyms": ["balcony", "terrace", "terraced"]
+
+
+}
